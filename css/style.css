@@ -23,26 +23,33 @@ a {
   font-weight: bold;
 }
 
-.top__img {
+.top__firstview {
   position: relative;
-  float: right;
+}
+
+.top__img-container {
+  width: 50%;
+  margin: 100px 0 0 auto;
   z-index: 10;
 }
+
+.top__img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
 .top__text {
   position: absolute;
-  font-size: 90px;
-  display: block;
-  top: 60%;
-  z-index: 20;
+  bottom: 100px;
+  font-size: 70px;
+  color: #00277e;
 }
 .top__box {
+  background: #00277e;
+  width: 75%;
+  height: 200px;
   position: absolute;
-  float: left;
-  top: 70%;
-  width: 80%;
-  height: 25vh;
-  border: solid 2px #000080;
-  background: #000080;
-  display: block;
-  z-index: -10;
+  bottom: -100px;
+  z-index: -1;
 }
